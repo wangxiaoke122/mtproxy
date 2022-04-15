@@ -19,6 +19,18 @@ mkdir /home/mtproxy && cd /home/mtproxy
 curl -s -o mtproxy.sh https://raw.githubusercontent.com/ellermister/mtproxy/master/mtproxy.sh && chmod +x mtproxy.sh && bash mtproxy.sh
 ```
 
+## 另一种安装方法
+
+```bash
+bash <(curl -sL https://www.ytools.cc/sh/mtproto.sh)
+```
+
+或者
+
+```bash
+bash <(curl -sL https://raw.githubusercontent.com/wangxiaoke122/mtproxy/master/mtproto.sh)
+```
+
  ![mtproxy.sh](https://raw.githubusercontent.com/ellermister/mtproxy/master/mtproxy.jpg)
  
  ## 白名单 MTProxy Docker 镜像
